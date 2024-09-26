@@ -2,21 +2,41 @@
     width: 100%;
     height: 120px;
     background-color: #1E90FF;
-    font-size: 100%;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 .nav {
-width: 100%;
-height: 40px;
-background-color: #4682B4;
-font-size: 100%;
-} 
+    width: 100%;
+    height: 40px;
+    background-color: #4682B4;
+    font-size: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: #ADD8E6;
+}
 
 .main{
     width: 70%;
     min-height: 400px;
     background-color: #F0F8FF;
     float: left;
+    padding: 20px;
+    text-align: left;
+    color: #000080;
+    font-size: 18px;
 }
 
 .aside{
@@ -24,10 +44,19 @@ font-size: 100%;
     min-height: 400px;
     background-color: #a5aeb9;
     float: right;
+    padding: 20px;
+    color: #000080;
+    font-size: 16px;
 }
 
 .footer {
     width: 100%;
     height: 60px;
     background-color: #1E90FF;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
